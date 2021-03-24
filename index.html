@@ -1,27 +1,64 @@
-<html>
-<head>
-	<title>
-		connecteddata.nl
-	</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Connecteddata</title>
 
-	<style>
-	* { font-family: verdana; font-size: 10pt; COLOR: gray; }
-	b { font-weight: bold; }
-	table { height: 50%; border: 1px solid gray;}
-	td { text-align: center; padding: 25;}
+    <!-- Bootstrap -->
+    <link href="otl-bor/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Bootstrap theme -->
+    <link href="otl-bor/css/bootstrap-theme.min.css" rel="stylesheet">
+	
+	<!-- Custom styles for this template -->
+    <link href="otl-bor/theme.css" rel="stylesheet">
+  </head>
+  <body>
+   <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Connecteddata</a>
+        </div>
+      </div>
+    </nav>
 
-	</style>
-</head>
-<body>
-<center>
-<br><br><br><br>
-	<table>
-	<tr><td>Welcome to the home of <b>connecteddata.nl</b></td></tr>
-		<tr><td>served from github.io</td></tr>
-	</table>
-<br><br>
+    <div class="container theme-showcase" role="main">
+	
+	<!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Connecteddata</h1>
+        <p>Connecteddata is een webstek voor een aantal data- en informatiemodel proeven</p>
+      </div>
+	  
+	   <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+		<div class="col-md-4">
+          <h2>OTL-BOR</h2>
+          <p>Een eerste aanzet om een OTL vorm te geven voor (IM)BOR</p>
+          <p><a class="btn btn-default" href="/otl-bor" target="_blank" role="button">OTL-BOR &raquo;</a></p>
+        </div>
+		<div class="col-md-4">
+          <h2>CBNL</h2>
+          <p>visualisatie van de CB-NL structuur in d3.js.</p>
+          <p><a class="btn btn-default" href="/cbnl" target="_blank" role="button">cbnl &raquo;</a></p>
+        </div>
 
-</center>
-</body>
+        
+      </div>
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="otl-bor/js/bootstrap.min.js"></script>
+  </body>
 </html>
